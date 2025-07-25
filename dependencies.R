@@ -1,6 +1,7 @@
 # MODERN DEPENDENCY MANAGEMENT --------------------------------------------
 
 library(shiny)
+library(pandoc)
 
 # Install renv if needed
 if (!requireNamespace("renv", quietly = TRUE)) {
