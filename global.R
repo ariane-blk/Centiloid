@@ -2,19 +2,19 @@
 
 # INSTALL DEPENDENCIES ----------------------------------------------------
 #setwd("~/Desktop/AAIC_CL")
-source('dependencies.R')
+#source('dependencies.R')
 
-# pkgs <- c(
-#   "shiny",
-#   "bslib",        # page_fillable(), navset_card_tab()
-#   "bsicons",
-#   "shinyWidgets",
-#   "dplyr", "readr",
-#   "gtools", "ggplot2", "ggpmisc",
-#   "oro.nifti"
-# )
-# 
-# invisible(lapply(pkgs, library, character.only = TRUE))
+pkgs <- c(
+  "shiny",
+  "bslib",        # page_fillable(), navset_card_tab()
+  "bsicons",
+  "shinyWidgets",
+  "dplyr", "readr",
+  "gtools", "ggplot2", "ggpmisc",
+  "oro.nifti"
+)
+
+lapply(pkgs, library, character.only = TRUE)
 # 
 # # ---- Local‑only: install anything missing and update the lock ----
 # if (Sys.getenv("RSTUDIO_CONNECT") != "1") {
@@ -22,4 +22,4 @@ source('dependencies.R')
 # }
 
 # load all packages
-lapply(required_packages, require, character.only = TRUE)
+#lapply(required_packages, require, character.only = TRUE)
