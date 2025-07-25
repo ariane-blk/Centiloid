@@ -2,10 +2,9 @@
 suvr_young <- 1.0  # Example SUVR for young controls (CL = 0)
 suvr_ad <- 2.0     # Example SUVR for AD patients (CL = 100)
 
-
 server <- function(input, output) {
   #bs_themer()
-  source("global.R")
+  #source("global.R")
   
   # DATA -----------------------------------
   PiB_gaain <- read_csv("data/PiB_gaain.csv")

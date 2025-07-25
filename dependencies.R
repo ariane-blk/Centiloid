@@ -45,3 +45,4 @@ lapply(required_packages, require, character.only = TRUE)
 
 # Snapshot current environment
 renv::snapshot(prompt = FALSE)
+
