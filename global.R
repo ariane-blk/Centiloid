@@ -4,6 +4,7 @@
 #setwd("~/Desktop/AAIC_CL")
 #source('dependencies.R')
 
+library(shinyWidgets)
 pkgs <- c(
   "shiny",
   "bslib",        # page_fillable(), navset_card_tab()
