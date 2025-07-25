@@ -1,6 +1,6 @@
 # MODERN DEPENDENCY MANAGEMENT --------------------------------------------
 
-library(shiny)
+#library(shiny)
 library(pandoc)
 
 # Install renv if needed

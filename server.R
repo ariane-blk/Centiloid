@@ -7,6 +7,13 @@ server <- function(input, output) {
   #bs_themer()
   source("global.R")
   
+  # DATA -----------------------------------
+  PiB_gaain <- read_csv("data/PiB_gaain.csv")
+  software_clinical_table <- read_csv("data/software_clinical.csv") %>%
+    select(-Website)
+  software_research_table <- read_csv("data/software_research.csv") 
+  h2h_table <- read_csv("data/h2h_f18_tracers.csv")
+  
   #---------------------------
   # INTRO OVERLAY
   #---------------------------
