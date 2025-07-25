@@ -3,7 +3,6 @@
 # INSTALL DEPENDENCIES ----------------------------------------------------
 #setwd("~/Desktop/AAIC_CL")
 source('dependencies.R')
-options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
 
 # load all packages
